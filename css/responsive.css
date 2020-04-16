@@ -1536,7 +1536,13 @@
 
 	.error404,
 	.error404-wrap .error404 { font-size: 160px; }
-
+	
+	.services-content{
+		flex-wrap: wrap;
+	}
+	.services-item{
+		margin: 10px auto;
+	}
 }
 
 @media (max-width: 575.98px) {
@@ -1700,6 +1706,12 @@
 
 	.button.button-desc span { font-size: 11px; }
 
+	.services-content{
+		flex-wrap: wrap;
+	}
+	.services-item{
+		margin: 10px auto;
+	}
 }
 
 
