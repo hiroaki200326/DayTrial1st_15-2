@@ -1050,7 +1050,8 @@ body.stretched #header.full-header .container {
 
 #logo a {
 	display: block;
-	color: #000;
+	color: #444;
+	font-family: 'Josefin Slab', sans-serif;
 }
 
 #logo img {
@@ -1058,9 +1059,14 @@ body.stretched #header.full-header .container {
 	max-width: 100%;
 }
 
-#logo a.standard-logo { display: block; }
+#logo a.standard-logo { 
+	color: #EEE;
+	display: block;
+}
 
-#logo a.retina-logo { display: none; }
+#logo a.retina-logo {
+	display: none;
+}
 
 
 /* ----------------------------------------------------------------
@@ -13964,3 +13970,4 @@ body:not(.no-transition) #wrapper,
   background-color: #fff;
   max-width: 342px;
 }
+
