@@ -1061,11 +1061,19 @@ body.stretched #header.full-header .container {
 
 #logo a.standard-logo { 
 	color: #EEE;
-	display: block;
+	/* display: block; */
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 #logo a.retina-logo {
 	display: none;
+	/* display: inline-block; */
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 

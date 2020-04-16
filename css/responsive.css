@@ -275,7 +275,11 @@
 		padding: 0 !important;
 	}
 
-	#logo a.standard-logo { display: inline-block; }
+	#logo a.standard-logo {
+		display: inline-block; 
+		left:50%;
+		transform:translate(-50%, -50%);
+	}
 
 	#primary-menu {
 		display: block;
@@ -1716,10 +1720,10 @@ only screen and (                min-resolution: 2dppx) {
 	#header.split-menu #logo a.standard-logo { display: none; }
 
 	#logo a.retina-logo {
-		display: block;
-		position: absolute;
+		display: inline-block;
+		/* position: absolute;
 		top: 50%;
-		transform: translateY(-50%);
+		transform: translateY(-50%); */
 	}
 
 	#header.split-menu #logo a.retina-logo { display: inline-block; }
@@ -1779,7 +1783,6 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991.98px
 	#logo a.standard-logo { display: none; }
 	#logo a.retina-logo {
 		display: inline-block;
-		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
