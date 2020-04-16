@@ -275,7 +275,11 @@
 		padding: 0 !important;
 	}
 
-	#logo a.standard-logo { display: inline-block; }
+	#logo a.standard-logo {
+		display: inline-block; 
+		left:50%;
+		transform:translate(-50%, -50%);
+	}
 
 	#primary-menu {
 		display: block;
@@ -1532,7 +1536,13 @@
 
 	.error404,
 	.error404-wrap .error404 { font-size: 160px; }
-
+	
+	.services-content{
+		flex-wrap: wrap;
+	}
+	.services-item{
+		margin: 10px auto;
+	}
 }
 
 @media (max-width: 575.98px) {
@@ -1696,6 +1706,12 @@
 
 	.button.button-desc span { font-size: 11px; }
 
+	.services-content{
+		flex-wrap: wrap;
+	}
+	.services-item{
+		margin: 10px auto;
+	}
 }
 
 
@@ -1716,10 +1732,10 @@ only screen and (                min-resolution: 2dppx) {
 	#header.split-menu #logo a.standard-logo { display: none; }
 
 	#logo a.retina-logo {
-		display: block;
-		position: absolute;
+		display: inline-block;
+		/* position: absolute;
 		top: 50%;
-		transform: translateY(-50%);
+		transform: translateY(-50%); */
 	}
 
 	#header.split-menu #logo a.retina-logo { display: inline-block; }
@@ -1779,7 +1795,6 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991.98px
 	#logo a.standard-logo { display: none; }
 	#logo a.retina-logo {
 		display: inline-block;
-		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}

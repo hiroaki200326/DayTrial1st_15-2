@@ -5303,6 +5303,7 @@
 }
 .icon-css3-alt:before {
   content: "\ed0e";
+  color: rgb(43, 152, 212);
 }
 .icon-css3:before {
   content: "\ed0f";
@@ -5591,6 +5592,7 @@
 }
 .icon-html5:before {
   content: "\ed6e";
+  color: rgb(241, 101, 42);
 }
 .icon-hubspot:before {
   content: "\ed6f";
@@ -5633,6 +5635,7 @@
 }
 .icon-js:before {
   content: "\ed7c";
+  color:rgb(255, 165, 0);
 }
 .icon-jsfiddle:before {
   content: "\ed7d";
@@ -7097,9 +7100,14 @@
 .icon-line2-users:before {
 	content: "\e001";
 }
-
+.icon-bootstrap:before{
+  content:"\f836";
+}
 .fa-bootstrap{
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  line-height: inherit!important;
+  color:rgb(86, 60, 124);
+}
+.fa-cogs{
+  /* line-height: inherit!important; */
+  color: #1ABC9C;
 }
